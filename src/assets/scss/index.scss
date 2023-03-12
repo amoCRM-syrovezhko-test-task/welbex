@@ -1,6 +1,8 @@
-@import 'variables';
+// base
+@import 'base/variables';
+@import 'base/fonts';
 
-// base components
+// components
 @import 'components/background/backGround';
 @import 'components/sections/header';
 @import 'components/sections/main';
@@ -8,6 +10,7 @@
 
 // header
 @import 'components/sections/header/logo';
+@import 'components/sections/header/nav';
 
 * {
   margin: 0;
