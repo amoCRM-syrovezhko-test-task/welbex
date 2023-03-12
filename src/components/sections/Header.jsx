@@ -9,8 +9,8 @@ const Header = () => {
     <header className='header'>
       <Logo />
       <Nav />
-      <Phone />
-      <Messengers />
+      <Phone style={'last phone header--item'}/>
+      <Messengers style={'last messengers'}/>
     </header>
   );
 };

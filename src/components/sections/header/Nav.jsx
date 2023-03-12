@@ -15,7 +15,7 @@ const Nav = () => {
       <li className='header--item nav--item'>
         Кейсы
       </li>
-      <li className='header--item nav--item'>
+      <li className='header--item nav--item nav--last'>
         Сертификаты
       </li>
     </ul>

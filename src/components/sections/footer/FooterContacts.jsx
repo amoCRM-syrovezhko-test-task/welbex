@@ -6,8 +6,8 @@ const FooterContacts = () => {
   return (
     <div className='footer-contacts'>
       <h3 className="footer-contacts--title">Контакты</h3>
-      <Phone />
-      <Messengers />
+      <Phone style={'phone header--item'} />
+      <Messengers style={'messengers'} />
       <h3 className="footer-contacts--address">
         Москва, Путевой проезд 3с1, к 902
       </h3>

@@ -1,0 +1,32 @@
+@media screen and (max-width: 1050px)  {
+  .header {
+    margin-top: 0;
+    padding: 2rem 1.6rem;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #0E1014;
+
+    &--item {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      text-transform: uppercase;
+      color: #E4E5EA;
+    }
+  }
+  
+  .logo {
+    display: none;
+  }
+
+  .nav {
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  .last {
+    display: none;
+
+  }
+}

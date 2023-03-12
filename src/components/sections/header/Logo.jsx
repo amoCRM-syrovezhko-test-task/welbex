@@ -3,7 +3,7 @@ import logo from '../../../assets/img/logo.png'
 
 const Logo = () => {
   return (
-    <div className='logo'>
+    <div className='logo last'>
       <img src={logo} alt="logo" className="logo--img" />
       <p className="logo--text">
         крупный интегратор CRM в Росcии и ещё 8 странах
