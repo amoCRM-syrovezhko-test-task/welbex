@@ -1,0 +1,11 @@
+.messengers {
+  width: 12rem;
+  margin-left: 4.7rem;
+  display: flex;
+  justify-content: space-between;
+
+  &--item {
+    height: 2rem;
+    width: 2rem;
+  }
+}

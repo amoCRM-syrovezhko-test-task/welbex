@@ -3,19 +3,19 @@ import React from 'react';
 const Nav = () => {
   return (
     <ul className='nav'>
-      <li className='nav--item'>
+      <li className='header--item nav--item'>
         Услуги
       </li>
-      <li className='nav--item'>
+      <li className='header--item nav--item'>
         Виджеты
       </li>
-      <li className='nav--item'>
+      <li className='header--item nav--item'>
         Интеграции
       </li>
-      <li className='nav--item'>
+      <li className='header--item nav--item'>
         Кейсы
       </li>
-      <li className='nav--item'>
+      <li className='header--item nav--item'>
         Сертификаты
       </li>
     </ul>
