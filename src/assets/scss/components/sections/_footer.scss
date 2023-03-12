@@ -3,11 +3,17 @@
   display: flex;
   justify-content: space-between;
   padding-top: 8.5rem;
+
+  &-container {
+    width: 100%;
+    background: #1E1E1E;
+    display: flex;
+    justify-content: center;
+  }
   
   &-list {
     display: flex;
     flex-direction: column;
-    // flex-wrap: wrap;
 
     &--title {
       margin-bottom: 2rem;

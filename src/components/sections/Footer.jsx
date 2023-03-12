@@ -21,17 +21,19 @@ const Footer = () => {
   ]
 
   return (
-    <footer className='footer'>
-      <FooterList 
-        title={'О компании'}
-        list={about}
-      />
-      <FooterList 
-        title={'Меню'}
-        list={menu}
-      />
-      <FooterContacts />
-    </footer>
+    <div className="footer-container">
+      <footer className='footer'>
+        <FooterList 
+          title={'О компании'}
+          list={about}
+        />
+        <FooterList 
+          title={'Меню'}
+          list={menu}
+        />
+        <FooterContacts />
+      </footer>
+    </div>
   );
 };
 
