@@ -5,10 +5,10 @@ import Button from './Button';
 const MainSecond = () => {
 
   const cards = [
-    {title: 'Виджеты', text: '30 готовых решений'},
-    {title: 'Dashboard', text: 'с показателями вашего бизнеса'},
-    {title: 'Skype Аудит', text: 'отдела продаж и CRM системы'},
-    {title: '35 дней', text: 'использования CRM'},
+    {id:1, title: 'Виджеты', text: '30 готовых решений'},
+    {id:2, title: 'Dashboard', text: 'с показателями вашего бизнеса'},
+    {id:3, title: 'Skype Аудит', text: 'отдела продаж и CRM системы'},
+    {id:4, title: '35 дней', text: 'использования CRM'},
   ]
   
   return (
@@ -20,7 +20,8 @@ const MainSecond = () => {
         {cards.map((card) =>
           <MainCard
             title={card.title}
-            text={card.text}/>
+            text={card.text}
+            key={card.id}/>
           )}
         </div>
         <Button />

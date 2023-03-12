@@ -1,0 +1,116 @@
+.footer {
+  width: 114rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8.5rem;
+  
+  &-list {
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+
+    &--title {
+      margin-bottom: 2rem;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+      
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      
+      /* dark gray */
+      
+      color: #656566;
+
+      display: inline;
+
+    }
+
+    &--block {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 14.5rem;
+      // height: 100%;
+      width: 41rem;
+      // width: 100%;
+    }
+  }
+
+  &-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* light text */
+    
+    color: #E4E5EA;
+    margin-bottom: 1rem;
+
+  }
+
+  &-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    &--title {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+      
+      text-align: right;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      
+      /* dark gray */
+      
+      color: #656566;
+      
+      margin-bottom: 2rem;
+    }
+
+    &--address {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: right;
+      
+      /* light text */
+      
+      color: #E4E5EA;
+    }
+  }
+}
+
+.legal {
+  margin-top: 70px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: right;
+
+  /* light text */
+
+  color: #E4E5EA;
+
+  &--text {}
+
+  &--link {
+    color: #E4E5EA;
+  }
+}
