@@ -1,10 +1,13 @@
 @import 'variables';
 
-// components
+// base components
 @import 'components/background/backGround';
 @import 'components/sections/header';
 @import 'components/sections/main';
 @import 'components/sections/footer';
+
+// header
+@import 'components/sections/header/logo';
 
 * {
   margin: 0;
