@@ -1,0 +1,52 @@
+.main {
+  margin-top: 9rem;
+  display: flex;
+  justify-content: space-between;
+  width: 36.2rem;
+  
+  &-first {
+    
+    &--text {
+      
+      &-logo {
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+        background: linear-gradient(
+                      92deg,
+                      #FCB045 27.14%,
+                      #FF3F78 121.36%
+                    ),
+                    #E4E5EA;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+  }
+}
+
+.text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #E4E5EA;
+  width: 27.5rem;
+  margin-top: 3rem;
+
+  &-big {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+
+  }
+}
