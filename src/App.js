@@ -6,10 +6,12 @@ import BackGround from './components/background/BackGround';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
+      <div className="container">
+        <Header />
+        <Main />
+        <BackGround />
+      </div>
       <Footer />
-      <BackGround />
     </div>
   );
 }
