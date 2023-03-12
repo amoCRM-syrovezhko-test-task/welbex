@@ -88,7 +88,7 @@
     line-height: 22px;
     text-align: right;
     letter-spacing: 0.05em;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -151,4 +151,8 @@
   color: #E4E5EA;
   background: #4077F3;
   padding: 2.1rem 3.5rem;
+}
+
+.line {
+  display: none;
 }
