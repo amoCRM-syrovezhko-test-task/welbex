@@ -1,7 +1,15 @@
+import Header from './components/sections/Header';
+import Main from './components/sections/Main';
+import Footer from './components/sections/Footer';
+import BackGround from './components/background/BackGround';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!</h1>    
+      <Header />
+      <Main />
+      <Footer />
+      <BackGround />
     </div>
   );
 }

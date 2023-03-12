@@ -1,0 +1,28 @@
+@import 'variables';
+
+// components
+@import 'components/background/backGround';
+@import 'components/sections/header';
+@import 'components/sections/main';
+@import 'components/sections/footer';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  height: 100%;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #1E1E1E;
+
+}
